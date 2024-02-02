@@ -6,6 +6,10 @@ div, ul{
     padding: 0;
 }
 
+.header-top, .header-bottom, .info-section, .quote-section div, .sign-up-section {
+    margin: 0px 50px;
+}
+
 .header, .image-info, .info-section, .body, .quote-section, .call-to-action {
     display: flex;
     flex-direction: column;
@@ -20,15 +24,84 @@ div, ul{
     background-color: #E5E7EB;
 }
 
+li, p ,h4{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px 10px;
+}
+
 h1 {
     font-size: 24px;
     color: #F9FAF8;
 }
 
+h2 {
+    font-size: 42px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 33px;
+    margin: 25px 0px;
+}
+
+h4 {
+    color: #1F2937;
+    font-weight: 400;
+    font-family: light italic;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
 .box {
+    margin: 50px;
     background-color: #3882F6;
+    width: 800px;
+    height: auto;
+    justify-content: center;
 }
 
 .info-section, .quote-section, .sign-up-section {
     align-items: center;
+}
+
+
+ul {
+    justify-content: flex-end;
+}
+
+.quote-site {
+    color: black;
+}
+
+img {
+    height: auto;
+    width: 200px;
+    border: black;
+    border: 5px;
+}
+
+.info-section div .image-info p {
+    color: black;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    padding: 0px;
+    border: white;
+    width: 50px;
+    height: auto;
+}
+
+.image-info {
+    margin: 0px 15px;
+}
+
+.call-to-action {
+    margin: 20px 35px;
 }
