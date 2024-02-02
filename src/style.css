@@ -64,6 +64,7 @@ p {
     width: 800px;
     height: auto;
     justify-content: center;
+    border-radius: 25px;
 }
 
 .info-section, .quote-section, .sign-up-section {
@@ -80,10 +81,13 @@ ul {
 }
 
 img {
-    height: auto;
+    height: 200px;
     width: 200px;
-    border: black;
-    border: 5px;
+}
+
+.info-section div .image-info img {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
 }
 
 .info-section div .image-info p {
@@ -92,10 +96,12 @@ img {
 
 .sign-up {
     background-color: #3882F6;
-    padding: 0px;
-    border: white;
-    width: 50px;
-    height: auto;
+    color: white;
+    width: 65px;
+    height: 38px;
+    padding: 5px 5px;
+    border-radius: 25px;
+    border-color: white;
 }
 
 .image-info {
@@ -104,4 +110,21 @@ img {
 
 .call-to-action {
     margin: 20px 35px;
+}
+
+.quote-section div {
+    margin-right: 50px;
+}
+
+.header-bottom {
+    margin-bottom: 50px;
+}
+
+.gray-box {
+    background-color: gray;
+    color: white;
+}
+
+.sign-up.bottom {
+    margin: 50px 100px;
 }
